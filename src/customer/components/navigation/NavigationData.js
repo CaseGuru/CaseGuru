@@ -24,9 +24,9 @@ const navigation = {
         sections: [
           {
             id: "softcase",
-            name: "Apple Models",
+            name: "Soft Case",
             items: [
-              { name: "iPhone 13 Pro Max", href: "#iphone-13-pro-max" },
+              { name: "iPhone 13", href: "#iphone-13-pro-max" },
               { name: "iPhone 13 Pro", href: "#iphone-13-pro" },
               { name: "iPhone 13 Mini", href: "#iphone-13-mini" },
               { name: "iPhone SE (2nd Gen)", href: "#iphone-se" },

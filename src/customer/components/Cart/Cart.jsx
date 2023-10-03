@@ -3,13 +3,12 @@ import { CheckIcon, ClockIcon, QuestionMarkCircleIcon, XIcon } from '@heroicons/
 import products from './CartItems'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux';
-import { getCart } from '../../../State/Cart/Action';
 import { useEffect } from 'react';
+import { getCart } from '../../../State/Cart/Action';
 
 
 export default function Cart() {
   const navigate = useNavigate();
-  const {cart} = useSelector(store=>store)
   const dispatch = useDispatch();
   const handleCheckout =()=>{
     navigate("/checkout?step=2")
@@ -18,6 +17,7 @@ export default function Cart() {
   useEffect(()=>{
     dispatch(getCart())
   },[])
+
 
 
   return (
@@ -52,12 +52,12 @@ export default function Cart() {
                           </h3>
                         </div>
                         <div className="mt-1 flex text-sm">
-                          <p className="text-gray-500">{""}</p>
+                          <p className="text-gray-500">{product.color}</p>
                           {product.size ? (
                             <p className="ml-4 pl-4 border-l border-gray-200 text-gray-500">{product.size}</p>
                           ) : null}
                         </div>
-                        <p className="mt-1 text-sm font-medium text-gray-900">{cart.cart?.totalPrice}</p>
+                        <p className="mt-1 text-sm font-medium text-gray-900">{product.price}</p>
                       </div>
 
                       <div className="mt-4 sm:mt-0 sm:pr-9">
@@ -139,7 +139,7 @@ export default function Cart() {
               </div>
               <div className="border-t border-gray-200 pt-4 flex items-center justify-between">
                 <dt className="text-base font-medium text-gray-900">Order total</dt>
-                <dd className="text-base font-medium text-gray-900">{cart.cart?.totalPrice}</dd>
+                <dd className="text-base font-medium text-gray-900">786</dd>
               </div>
             </dl>
 

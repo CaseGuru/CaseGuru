@@ -21,8 +21,8 @@ import { findProductsById } from "../../../State/Product/Action";
 import { addItemToCart } from "../../../State/Cart/Action";
 
 const productss = {
-  name: "Basic Tee 6-Pack",
-  price: "$192",
+  name: "Stickers Glass Case For All Models",
+  price: "₹349",
   actualprice: "$240",
   href: "#",
   breadcrumbs: [
@@ -31,7 +31,7 @@ const productss = {
   ],
   images: [
     {
-      src: "https://tailwindui.com/img/ecommerce-images/product-page-02-secondary-product-shot.jpg",
+      src: "https://caseguru.co.in/wp-content/uploads/2023/08/CG0033-1536x1536.webp",
       alt: "Two each of gray, white, and black shirts laying flat.",
     },
     {
@@ -102,13 +102,47 @@ const reviews = {
 const products = [
   {
     id: 1,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "$35",
-    color: "Black",
+    name: 'Stickers Glass Case For All Models',
+    href: '#',
+    price: '₹  349',
+    color: 'Soft Case',
+    inStock: true,
+    size: 'Galaxy S21',
+    imageSrc: 'https://caseguru.co.in/wp-content/uploads/2023/08/CG0033-1536x1536.webp',
+    imageAlt: "Front of men's Basic Tee in sienna.",
+  },
+  {
+    id: 1,
+    name: 'Stickers Glass Case For All Models',
+    href: '#',
+    price: '₹  349',
+    color: 'Soft Case',
+    inStock: true,
+    size: 'Galaxy S21',
+    imageSrc: 'https://caseguru.co.in/wp-content/uploads/2023/08/CG0033-1536x1536.webp',
+    imageAlt: "Front of men's Basic Tee in sienna.",
+  },
+  {
+    id: 1,
+    name: 'Stickers Glass Case For All Models',
+    href: '#',
+    price: '₹  349',
+    color: 'Soft Case',
+    inStock: true,
+    size: 'Galaxy S21',
+    imageSrc: 'https://caseguru.co.in/wp-content/uploads/2023/08/CG0033-1536x1536.webp',
+    imageAlt: "Front of men's Basic Tee in sienna.",
+  },
+  {
+    id: 1,
+    name: 'Stickers Glass Case For All Models',
+    href: '#',
+    price: '₹  349',
+    color: 'Soft Case',
+    inStock: true,
+    size: 'Galaxy S21',
+    imageSrc: 'https://caseguru.co.in/wp-content/uploads/2023/08/CG0033-1536x1536.webp',
+    imageAlt: "Front of men's Basic Tee in sienna.",
   },
 ];
 

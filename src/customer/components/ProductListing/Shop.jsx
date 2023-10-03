@@ -66,7 +66,7 @@ export default function Shop() {
       <main className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="border-b border-gray-200 pb-10">
           <h1 className="text-4xl font-extrabold tracking-tight text-gray-900">
-            New Arrivals
+            iPhone 13
           </h1>
           <p className="mt-4 text-base text-gray-500">
             Checkout the latest release of Basic Tees, new and improved with

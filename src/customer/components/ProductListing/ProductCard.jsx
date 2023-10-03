@@ -36,7 +36,7 @@ const ProductCard = ({product}) => {
     navigate("/cart");
   };
 
-  const displayedProducts = products.slice(0, 4);
+  const displayedProducts = products.slice(0, 8);
   return (
     <div className="bg-white">
       <div className="max-w-2xl lg:py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
